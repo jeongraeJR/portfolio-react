@@ -7,11 +7,11 @@ export default function Project() {
         <div>
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
-                    <h1>Projects</h1>
+                    <h3>Projects</h3>
                     <hr></hr>
                 </TitleContainer>
                 <SubTitleContainer>
-                    <h3>1. BUDY REST API (2019.12 ~ 2020.03)</h3>
+                    <h5>1. BUDY REST API (2019.12 ~ 2020.03)</h5>
                 </SubTitleContainer>
                 <ContentContainer>
                     <Table borderless>
@@ -50,10 +50,9 @@ export default function Project() {
                     </Table>
                 </ContentContainer>
 
-                <hr/>
                 
                 <SubTitleContainer>
-                    <h3>2. WEB CMS (2018.04 ~ 2020.05)</h3>
+                    <h5>2. WEB CMS (2018.04 ~ 2020.05)</h5>
                 </SubTitleContainer>
                 <ContentContainer>
                     <Table borderless>
@@ -85,7 +84,7 @@ export default function Project() {
                 </ContentContainer>
 
                 <SubTitleContainer>
-                    <h3>3. 자사 고객관리 서비스 (2018.01 ~ 2018.04)</h3>
+                    <h5>3. 자사 고객관리 서비스 (2018.01 ~ 2018.04)</h5>
                 </SubTitleContainer>
                 <ContentContainer>
                     <Table borderless>

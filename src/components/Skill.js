@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container} from 'reactstrap';
 import {TitleContainer, ContentContainer} from './customStyle'
 
 
@@ -8,17 +8,17 @@ export default function Skill() {
         <div>
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
-                    <h1>SKILL</h1>
+                    <h3>SKILL</h3>
                     <hr></hr>
                 </TitleContainer>
                
                 <ContentContainer>
-                    <h2>주력 언어</h2>
+                    <h4>주력 언어</h4>
                     <img src="/images/skill1.png" />
                 </ContentContainer>
 
                 <ContentContainer>
-                    <h2>기타</h2>
+                    <h4>기타</h4>
                     <img src="/images/skill2.png" />
                 </ContentContainer>
             </Container>
