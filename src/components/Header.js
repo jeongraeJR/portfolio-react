@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
-
 
 const HeaderContainer = styled.div`
     width: 100%;
@@ -9,8 +8,5 @@ const HeaderContainer = styled.div`
 `;
 
 export default function Header() {
-    return (
-        <HeaderContainer>
-        </HeaderContainer>
-    )
+    return <HeaderContainer></HeaderContainer>;
 }
