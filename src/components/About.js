@@ -1,6 +1,10 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import styled from 'styled-components';
+import { faEnvelopeSquare } from "@fortawesome/free-solid-svg-icons"
+import { faGithubSquare} from "@fortawesome/free-brands-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+
 
 const aboutRow = {
     'padding-top': '20px'
@@ -11,8 +15,11 @@ const Bio = styled.div`
     color: #474747;
 `;
 
-const AboutContainer = styled.div`
+const AboutContainer = styled.span`
     margin-top:20px;
+    div {
+        display:inline;
+    }
 `
 
 
@@ -36,9 +43,18 @@ export default function About() {
                         </Row>
                         <Row>
                             <AboutContainer>
-                            <h3>CONTACT</h3>
-                            email : <p></p>
-                            github :
+                                <h3>CONTACT</h3>
+                                <p></p>
+                                <FontAwesomeIcon icon={faEnvelopeSquare} size='2x' color='#474747'/>
+                                <div>
+                                    &nbsp;&nbsp;jeongrae1192@naver.com
+                                </div>
+                            
+                                <p></p>
+                                <FontAwesomeIcon icon={faGithubSquare} size='2x' color='#474747'/> 
+                                <div>
+                                    &nbsp;&nbsp;jeongrae1192@naver.com
+                                </div>
                             </AboutContainer>
                         </Row>
                     </Col>
