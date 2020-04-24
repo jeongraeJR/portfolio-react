@@ -5,3 +5,6 @@
 - React.js
 - Bootstrap 4.4.1
 - Font Awesome
+
+### 2019.04.24
+깃허브 페이지에 배포시 Aborted 404 에러가 뜨는 현상이 있음 해결방법 찾아보는중.
