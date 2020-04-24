@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import styled from 'styled-components';
-import { faEnvelopeSquare, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelopeSquare, faUser, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -45,9 +45,10 @@ export default function About() {
                         </Bio>
 
                         <AboutContainer>
-                            <h3>CONTACT</h3>
+                            <h3>ABOUT</h3>
                             <hr></hr>
                             <h5><FontAwesomeIcon icon={faUser} color="#474747"></FontAwesomeIcon> 김정래</h5>
+                            <h5><FontAwesomeIcon icon={faUniversity} color="#474747"></FontAwesomeIcon> 인하대학교 컴퓨터공학부 졸업</h5>
                             <h5><FontAwesomeIcon icon={faEnvelopeSquare} color="#474747"></FontAwesomeIcon> jeongrae1192@naver.com</h5>
                             <a href="https://github.com/jeongraeJR" target="_blank">
                                 <h5><FontAwesomeIcon icon={faGithubSquare} color="#474747" /> https://github.com/jeongraeJR</h5>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Progress, Row, Col } from 'reactstrap';
 import { TitleContainer, ContentContainer, SubTitleContainer } from './customStyle';
-import { faKeyboard,faDatabase,faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import { faJenkins,faAws } from '@fortawesome/free-brands-svg-icons';
+import { faKeyboard, faDatabase, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faJenkins, faAws } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Project() {
@@ -18,12 +18,8 @@ export default function Project() {
                 </SubTitleContainer>
                 <ContentContainer>
                     <Row>
-                        <Col sm="2">
-                           설명
-                        </Col>
-                        <Col sm="auto">
-                            해외 합법 대마초 사용자를 위한 커뮤니티 서비스
-                        </Col>
+                        <Col sm="2">설명</Col>
+                        <Col sm="auto">해외 합법 대마초 사용자를 위한 커뮤니티 서비스</Col>
                     </Row>
 
                     <Row className="mt-2">
@@ -34,7 +30,7 @@ export default function Project() {
                             </span>
                             <br></br>
                             <span>
-                                <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon>  DB 설계
+                                <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> DB 설계
                             </span>
                             <br></br>
                             <span>
@@ -66,7 +62,6 @@ export default function Project() {
                         <Col sm="2">링크</Col>
                         <Col sm="auto">
                             <a href="https://api.gananetworks.com/docs" target="_blank">
-
                                 BUDY REST API <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                             </a>
                         </Col>
@@ -122,7 +117,15 @@ export default function Project() {
 
                     <Row className="mt-2">
                         <Col sm="2">주요업무</Col>
-                        <Col sm="auto">LG 유플러스 전화기 REST API 연동, JAVA를 활용한 화면 개발</Col>
+                        <Col sm="auto">
+                            <span>
+                                <FontAwesomeIcon icon={faKeyboard} color="#474747"></FontAwesomeIcon> LG 유플러스 전화기 REST API 연동
+                            </span>
+                            <br></br>
+                            <span>
+                                <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> JAVA를 활용한 화면 개발
+                            </span>
+                        </Col>
                     </Row>
 
                     <Row className="mt-2">
