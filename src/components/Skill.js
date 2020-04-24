@@ -14,12 +14,12 @@ export default function Skill() {
                
                 <ContentContainer>
                     <h4>주력 언어</h4>
-                    <img src="/images/skill1.png" />
+                    <img src="images/skill1.png" />
                 </ContentContainer>
 
                 <ContentContainer>
                     <h4>기타</h4>
-                    <img src="/images/skill2.png" />
+                    <img src="images/skill2.png" />
                 </ContentContainer>
             </Container>
         </div>
