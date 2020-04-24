@@ -1,7 +1,10 @@
 import React from 'react';
-import { Container, Table, Progress } from 'reactstrap';
-import { TitleContainer, ContentContainer, SubTitleContainer,
-LeftTitleOfTable } from './customStyle';
+import { Container, Progress, Row, Col } from 'reactstrap';
+import { TitleContainer, ContentContainer, SubTitleContainer } from './customStyle';
+import { faKeyboard,faDatabase,faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faJenkins,faAws } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 export default function Project() {
     return (
         <div>
@@ -11,108 +14,129 @@ export default function Project() {
                     <hr></hr>
                 </TitleContainer>
                 <SubTitleContainer>
-                    <h5>1. BUDY REST API (2019.12 ~ 2020.03)</h5>
+                    <h4>1. BUDY REST API (2019.12 ~ 2020.03)</h4>
                 </SubTitleContainer>
                 <ContentContainer>
-                    <Table borderless>
-                        <tbody>
-                            <tr>
-                                <LeftTitleOfTable scope="row">설명</LeftTitleOfTable>
-                                <td>해외 합법 대마초 사용자를 위한 커뮤니티 서비스</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">주요업무</th>
-                                <td>Nodejs REST API 개발 (게시글, 댓글, 인박스), ERD설계, 배포자동화, AWS활용한 서비스 아키텍쳐 구성</td>
-                            </tr>
+                    <Row>
+                        <Col sm="2">
+                            <b>설명</b>
+                        </Col>
+                        <Col sm="auto">해외 합법 대마초 사용자를 위한 커뮤니티 서비스</Col>
+                    </Row>
 
-                            <tr>
-                                <th scope="row" className="align-middle">참여도</th>
-                                <td>
-                                    <div className="text-center">50%</div>
-                                    <Progress value={50} />
-                                </td>
-                            </tr>
+                    <Row className="mt-2">
+                        <Col sm="2">주요업무</Col>
+                        <Col sm="auto">
+                            <span>
+                                <FontAwesomeIcon icon={faKeyboard} color="#474747"></FontAwesomeIcon> 게시글, 댓글, 인박스 API 구현
+                            </span>
+                            <br></br>
+                            <span>
+                                <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon>  DB 설계
+                            </span>
+                            <br></br>
+                            <span>
+                                <FontAwesomeIcon icon={faJenkins} color="#474747"></FontAwesomeIcon> Jenkins 파이프라인 배포자동화
+                            </span>
+                            <br></br>
+                            <span>
+                                <FontAwesomeIcon icon={faAws} color="#474747"></FontAwesomeIcon> AWS활용한 서비스 아키텍쳐 구성
+                            </span>
+                        </Col>
+                    </Row>
 
-                            <tr>
-                                <th scope="row">개발 환경</th>
-                                <td> <img src="images/budy-stack.png"/></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">링크</th>
-                                <td>
-                                    <a href="https://api.gananetworks.com/docs" target="_blank">
-                                        {' '}
-                                        BUDY REST API{' '}
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </Table>
-                </ContentContainer>
+                    <Row className="mt-2">
+                        <Col sm="2">참여도</Col>
+                        <Col sm="10">
+                            <div className="text-center">50%</div>
+                            <Progress value={50} />
+                        </Col>
+                    </Row>
 
-                
-                <SubTitleContainer>
-                    <h5>2. WEB CMS (2018.04 ~ 2020.05)</h5>
-                </SubTitleContainer>
-                <ContentContainer>
-                    <Table borderless>
-                        <tbody>
-                            <tr>
-                                <LeftTitleOfTable scope="row">설명</LeftTitleOfTable>
-                                <td>고객 자동이체 기능이 있는 고객출금관리 서비스</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">주요업무</th>
-                                <td>Spring framework를 활용한 화면 개발, ERD설계</td>
-                            </tr>
+                    <Row className="mt-2">
+                        <Col sm="2">개발 환경</Col>
+                        <Col sm="auto">
+                            <img src="images/budy-stack.png" />
+                        </Col>
+                    </Row>
 
-                            <tr>
-                                <th scope="row">참여도</th>
-                                <td>
-                                    <div className="text-center">50%</div>
-                                    <Progress value={50} />
-                                </td>
-                            </tr>
+                    <Row className="mt-2">
+                        <Col sm="2">링크</Col>
+                        <Col sm="auto">
+                            <a href="https://api.gananetworks.com/docs" target="_blank">
 
-                            <tr>
-                                <th scope="row">개발 환경</th>
-                                <td><img src="images/cms-stack.png"/></td>
-                            </tr>
-                           
-                        </tbody>
-                    </Table>
+                                BUDY REST API <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
+                            </a>
+                        </Col>
+                    </Row>
                 </ContentContainer>
 
                 <SubTitleContainer>
-                    <h5>3. 자사 고객관리 서비스 (2018.01 ~ 2018.04)</h5>
+                    <h4>2. WEB CMS (2018.04 ~ 2019.05)</h4>
                 </SubTitleContainer>
                 <ContentContainer>
-                    <Table borderless>
-                        <tbody>
-                            <tr>
-                                <LeftTitleOfTable scope="row">설명</LeftTitleOfTable>
-                                <td>고객통화내역, 전화걸기등의 기능이 있는 자사 고객관리를 위한 CRM 프로그램</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">주요업무</th>
-                                <td>LG 유플러스 전화기 REST API 연동, JAVA를 활용한 화면 개발</td>
-                            </tr>
+                    <Row className="mt-2">
+                        <Col sm="2">설명</Col>
+                        <Col sm="auto">고객 자동이체 기능이 있는 고객출금관리 서비스</Col>
+                    </Row>
 
-                            <tr>
-                                <th scope="row">참여도</th>
-                                <td>
-                                    <div className="text-center">100%</div>
-                                    <Progress color="info" value={100} />
-                                </td>
-                            </tr>
+                    <Row className="mt-2">
+                        <Col sm="2">주요업무</Col>
+                        <Col sm="auto">
+                            <span>
+                                <FontAwesomeIcon icon={faKeyboard} color="#474747"></FontAwesomeIcon> 고객관리, 출금관리 및 출금내역 화면 개발
+                            </span>
+                            <br></br>
+                            <span>
+                                <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> DB 설계
+                            </span>
+                        </Col>
+                    </Row>
 
-                            <tr>
-                                <th scope="row">개발 환경</th>
-                                <td><img src="images/crm-stack.png"/></td>
-                            </tr>
-                          
-                        </tbody>
-                    </Table>
+                    <Row className="mt-2">
+                        <Col sm="2">참여도</Col>
+                        <Col sm="10">
+                            <div className="text-center">50%</div>
+                            <Progress value={50} />
+                        </Col>
+                    </Row>
+
+                    <Row className="mt-2">
+                        <Col sm="2">개발 환경</Col>
+                        <Col sm="auto">
+                            <img src="images/cms-stack.png" />
+                        </Col>
+                    </Row>
+                </ContentContainer>
+
+                <SubTitleContainer>
+                    <h4>3. 자사 고객관리 서비스 (2018.01 ~ 2018.04)</h4>
+                </SubTitleContainer>
+                <ContentContainer>
+                    <Row className="mt-2">
+                        <Col sm="2">설명</Col>
+                        <Col sm="auto">고객통화내역, 전화걸기등의 기능이 있는 자사 고객관리를 위한 CRM 프로그램</Col>
+                    </Row>
+
+                    <Row className="mt-2">
+                        <Col sm="2">주요업무</Col>
+                        <Col sm="auto">LG 유플러스 전화기 REST API 연동, JAVA를 활용한 화면 개발</Col>
+                    </Row>
+
+                    <Row className="mt-2">
+                        <Col sm="2">참여도</Col>
+                        <Col sm="10">
+                            <div className="text-center">100%</div>
+                            <Progress color="info" value={100} />
+                        </Col>
+                    </Row>
+
+                    <Row className="mt-2">
+                        <Col sm="2">개발 환경</Col>
+                        <Col sm="auto">
+                            <img src="images/crm-stack.png" />
+                        </Col>
+                    </Row>
                 </ContentContainer>
             </Container>
         </div>
