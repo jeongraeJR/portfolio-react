@@ -23,7 +23,7 @@ export default function About() {
             <Container className="themed-container" fluid="sm">
                 <Row>
                     <Col sm="3" className="mt-4">
-                        <img src="/images/profilepic.png" width="220"></img>
+                        <img src="images/profilepic.png" width="220"></img>
                     </Col>
                     <Col sm="9" className="mt-4">
                         <h3>팀과 조화를 이루는 개발자가 되겠습니다.</h3>
