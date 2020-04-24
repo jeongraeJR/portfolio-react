@@ -19,9 +19,11 @@ export default function Project() {
                 <ContentContainer>
                     <Row>
                         <Col sm="2">
-                            <b>설명</b>
+                           설명
                         </Col>
-                        <Col sm="auto">해외 합법 대마초 사용자를 위한 커뮤니티 서비스</Col>
+                        <Col sm="auto">
+                            해외 합법 대마초 사용자를 위한 커뮤니티 서비스
+                        </Col>
                     </Row>
 
                     <Row className="mt-2">
