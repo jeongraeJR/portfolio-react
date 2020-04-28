@@ -34,4 +34,9 @@ const LeftTitleOfTable = styled.th`
     width:140px;
 `
 
-export { TitleContainer, ContentContainer, SubTitleContainer, LeftTitleOfTable };
+const IconContainer = styled.div`
+    img{
+        padding-right: 10px;
+    }
+`;
+export { TitleContainer, ContentContainer, SubTitleContainer, LeftTitleOfTable, IconContainer };
