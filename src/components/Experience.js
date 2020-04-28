@@ -19,7 +19,8 @@ export default function Experience() {
                         <CardHeader tag="h5">가나네트웍스 (2019.06 ~ 2020.03) </CardHeader>
                         <CardBody>
                             <CardTitle>스타트업 백엔드 개발자로 입사</CardTitle>
-                            <CardText> 주요 업무 : 자사 서비스 개발 </CardText>
+                            <CardText>NodeJS를 활용한 REST API 개발</CardText>
+                            <CardText>AWS를 활용한 서비스 아키텍쳐 구성</CardText>
                         </CardBody>
                     </Card>
 
@@ -27,7 +28,7 @@ export default function Experience() {
                         <CardHeader tag="h5">지에스소프트 (2018.02 ~ 2019.05)</CardHeader>
                         <CardBody>
                             <CardTitle>신입 웹개발자로 입사</CardTitle>
-                            <CardText> 주요 업무 : 자사 서비스 개발 및 고객 응대 </CardText>
+                            <CardText> JAVA/SPRING을 활용한 자사 웹서비스 개발 </CardText>
                         </CardBody>
                     </Card>
                 </ContentContainer>
