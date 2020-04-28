@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Progress, Row, Col } from 'reactstrap';
-import { TitleContainer, ContentContainer, SubTitleContainer } from './customStyle';
+import { TitleContainer, ContentContainer, SubTitleContainer, IconContainer } from './customStyle';
 import { faKeyboard, faDatabase, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faJenkins, faAws } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -54,7 +54,15 @@ export default function Project() {
                     <Row className="mt-2">
                         <Col sm="2">개발 환경</Col>
                         <Col sm="auto">
-                            <img src="images/budy-stack.png" />
+                            <IconContainer>
+                                <img src="images/nodejs.png" />
+                                <img src="images/aws.png" />
+                                <img src="images/mysql.png" />
+                                <img src="images/jenkins.png" />
+                                <img src="images/firebase.png" />
+                                <img src="images/github.png" />
+                                <img src="images/swagger.png" />
+                            </IconContainer>
                         </Col>
                     </Row>
 
@@ -101,7 +109,14 @@ export default function Project() {
                     <Row className="mt-2">
                         <Col sm="2">개발 환경</Col>
                         <Col sm="auto">
-                            <img src="images/cms-stack.png" />
+                            <IconContainer>
+                                <img src="images/java.png" />
+                                <img src="images/navercloud.png" />
+                                <img src="images/mysql.png" />
+                                <img src="images/jquery.png" />
+                                <img src="images/css.png" />
+                                <img src="images/html.png" />
+                            </IconContainer>
                         </Col>
                     </Row>
                 </ContentContainer>
@@ -139,7 +154,13 @@ export default function Project() {
                     <Row className="mt-2">
                         <Col sm="2">개발 환경</Col>
                         <Col sm="auto">
-                            <img src="images/crm-stack.png" />
+                            <IconContainer>
+                                <img src="images/java.png" />
+                                <img src="images/mysql.png" />
+                                <img src="images/jquery.png" />
+                                <img src="images/css.png" />
+                                <img src="images/html.png" />
+                            </IconContainer>
                         </Col>
                     </Row>
                 </ContentContainer>
