@@ -29,19 +29,23 @@ export default function Project() {
                         <Col sm="auto">
                             <TableContentContainer>
                                 <span>
-                                    <FontAwesomeIcon icon={faKeyboard} color="#474747"></FontAwesomeIcon> 게시글, 댓글, 인박스 API 구현
+                                    <FontAwesomeIcon icon={faKeyboard} color="#474747"></FontAwesomeIcon> 
+                                    &nbsp;게시글, 댓글, 인박스 API 구현
                                 </span>
                                 <br></br>
                                 <span>
-                                    <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> DB 설계
+                                    <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> 
+                                    &nbsp;Workbench를 활용한 ERD 작성
                                 </span>
                                 <br></br>
                                 <span>
-                                    <FontAwesomeIcon icon={faJenkins} color="#474747"></FontAwesomeIcon> Jenkins 파이프라인 배포자동화
+                                    <FontAwesomeIcon icon={faJenkins} color="#474747"></FontAwesomeIcon> 
+                                    &nbsp;Jenkins 파이프라인을 활용한 배포서버 구성
                                 </span>
                                 <br></br>
                                 <span>
-                                    <FontAwesomeIcon icon={faAws} color="#474747"></FontAwesomeIcon> AWS활용한 서비스 아키텍쳐 구성
+                                    <FontAwesomeIcon icon={faAws} color="#474747"></FontAwesomeIcon> 
+                                    &nbsp;AWS활용한 서비스 환경구성 (Elastic Beanstalk + EC2 + CDN + Route53)
                                 </span>
                             </TableContentContainer>
                         </Col>
@@ -100,7 +104,7 @@ export default function Project() {
                                 </span>
                                 <br></br>
                                 <span>
-                                    <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> DB 설계
+                                    <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> DB 설계참여 및 문서작성
                                 </span>
                             </TableContentContainer>
                         </Col>
@@ -149,7 +153,7 @@ export default function Project() {
                                 </span>
                                 <br></br>
                                 <span>
-                                    <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> JAVA를 활용한 화면 개발
+                                    <FontAwesomeIcon icon={faKeyboard} color="#474747"></FontAwesomeIcon> JAVA Servlet을 활용한 화면 개발
                                 </span>
                             </TableContentContainer>
                         </Col>

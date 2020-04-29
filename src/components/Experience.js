@@ -16,19 +16,31 @@ export default function Experience() {
 
                 <ContentContainer>
                     <Card>
-                        <CardHeader tag="h5">가나네트웍스 (2019.06 ~ 2020.03) </CardHeader>
+                        <CardHeader tag="h4">가나네트웍스 (2019.06 ~ 2020.03) </CardHeader>
                         <CardBody>
-                            <CardTitle>스타트업 백엔드 개발자로 입사</CardTitle>
-                            <CardText>NodeJS를 활용한 REST API 개발</CardText>
-                            <CardText>AWS를 활용한 서비스 아키텍쳐 구성</CardText>
+                            <CardTitle>백엔드 개발자</CardTitle>
+                            <CardText>
+                                <ul>
+                                    <li>자사 서비스 REST API 개발</li>
+                                    <li>AWS인프라를 활용한 환경 구성</li>
+                                    <li>DB설계 참여</li>
+                                </ul>
+                            </CardText>
+
                         </CardBody>
                     </Card>
 
                     <Card style={cardTab}>
-                        <CardHeader tag="h5">지에스소프트 (2018.02 ~ 2019.05)</CardHeader>
+                        <CardHeader tag="h4">지에스소프트 (2018.02 ~ 2019.05)</CardHeader>
                         <CardBody>
-                            <CardTitle>신입 웹개발자로 입사</CardTitle>
-                            <CardText> JAVA/SPRING을 활용한 자사 웹서비스 개발 </CardText>
+                            <CardTitle>웹개발자</CardTitle>
+                            <CardText> 
+                                <ul>
+                                    <li>자사 CRM및 자동이체관리 프로그램 개발</li>
+                                    <li>프로그램 이용관련 고객응대</li>
+                                    <li>DB설계 참여</li>
+                                </ul>
+                            </CardText>
                         </CardBody>
                     </Card>
                 </ContentContainer>
