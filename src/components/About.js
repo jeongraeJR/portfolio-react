@@ -38,8 +38,9 @@ export default function About() {
                         <h3>자바스크립트를 잘하는 서버개발자가 되고싶습니다.</h3>
                         <Bio>
                             <p></p>
-                            비롯 첫 시작은 JAVA였지만, 두번째 직장에서 JavaScript와 NodeJS에 매력과 재미를 느꼈습니다. <br></br>
-                            그래서 저는 앞으로 깊이 있는 JavaScript 개발자가 되는 것이 꿈입니다.<br></br>
+                            비롯 첫 시작은 JAVA였지만, 두번째 직장에서 NodeJS를 접하면서 <br></br>
+                            JavaScript와 백엔드에 매력과 재미를 느꼈습니다. <br></br>
+                            그래서 서버쪽 기술 스택과 JavaScript에 대해서 깊이 있는 개발자가 되는 것이 꿈입니다.<br></br>
                             그 꿈을 이루기위해 앞으로 자기계발을 열심히 해나가겠습니다. <br></br>
                             <p></p>
                         </Bio>
