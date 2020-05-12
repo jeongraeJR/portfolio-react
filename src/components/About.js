@@ -11,6 +11,13 @@ const Bio = styled.div`
     color: #474747;
 `;
 
+const ProfileContainer = styled.div`
+    padding-top: 20px;
+    div {
+        display: inline;
+    }
+`;
+
 const AboutContainer = styled.div`
     padding-top: 20px;
     div {
@@ -43,13 +50,21 @@ export default function About() {
                                 개발자가 혼자인 점에서 한계점을 느꼈기에, 좀 더 개발자가 많은 환경으로 가고자 한 차례 이직을 하였습니다. 덕분에 두번째
                                 직장에서 협업 능력과 다양한 개발 스택을 쌓을 수 있었습니다. 두번째 직장도 비교적 업무환경이 자유로웠기때문에 서비스에
                                 필요한 환경설정과 서버 개발을 주도적으로 수행하였습니다. 처음에는 부족한 점이 많았지만, 코드를 여러번 고치며 품질을
-                                향상시키려고 노력하였습니다. 현실에 안주하지 않으며 꾸준히 발전하는 개발자가 되겠습니다.
+                                향상시키려고 노력하였습니다. 이처럼 앞으로도 현실에 안주하지 않으며 꾸준히 발전하는 개발자가 되겠습니다.
                                 <p></p>
                             </Bio>
-
-                            <AboutContainer>
-                                <h3>ABOUT</h3>
+                        </Col>
+                    </Row>
+                    <h3>ABOUT</h3>
                                 <hr></hr>
+
+                    <Row>
+                        <Col sm="2">
+                          <img src="images/profilepic.png"/>
+                        </Col>
+
+                        <Col sm="10">
+                            <AboutContainer>
                                 <h5>
                                     <FontAwesomeIcon icon={faUser} color="#474747"></FontAwesomeIcon> 김정래
                                 </h5>
