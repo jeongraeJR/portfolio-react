@@ -1,17 +1,17 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import { TitleContainer, ContentContainer, SubTitleContainer } from './customStyle';
+import { Element } from 'react-scroll';
 
-const cardTab = {
-    'margin-top': '30px',
-};
 export default function Experience() {
     return (
         <div>
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
-                    <h3>Experience</h3>
-                    <hr></hr>
+                    <Element name="Experience" className="element">
+                        <h3>Experience</h3>
+                        <hr></hr>
+                    </Element>
                 </TitleContainer>
 
                 <SubTitleContainer>

@@ -1,15 +1,17 @@
 import React from 'react';
 import { Container} from 'reactstrap';
 import {TitleContainer, ContentContainer, IconContainer} from './customStyle'
-
+import { Element } from 'react-scroll';
 
 export default function Skill() {
     return (
         <div>
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
+                    <Element name="Skills" className="element">
                     <h3>SKILL</h3>
                     <hr></hr>
+                    </Element>
                 </TitleContainer>
                
                 <ContentContainer>

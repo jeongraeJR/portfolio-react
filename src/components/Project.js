@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Progress, Row, Col } from 'reactstrap';
+import { Element } from 'react-scroll';
 import { TitleContainer, ContentContainer, SubTitleContainer, IconContainer, TableContentContainer } from './customStyle';
 import { faKeyboard, faDatabase, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faJenkins, faAws } from '@fortawesome/free-brands-svg-icons';
@@ -10,8 +11,10 @@ export default function Project() {
         <div>
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
+                 <Element name="Projects" className="element">
                     <h3>Projects</h3>
                     <hr></hr>
+                    </Element>
                 </TitleContainer>
                 <SubTitleContainer>
                     <h4>1. BUDY REST API (2019.12 ~ 2020.03)</h4>
