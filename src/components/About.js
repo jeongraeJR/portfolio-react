@@ -36,7 +36,7 @@ export default function About() {
                 <Element name="About" className="element">
                     <Row>
                         <Col sm="12" style={margin_top}>
-                            <h2>평화의 비둘기</h2>
+                            <h2>INTRODUCE</h2>
 
                             <Bio>
                                 <p></p>

@@ -19,6 +19,7 @@ export default function Experience() {
                 </SubTitleContainer>
                 <ContentContainer>
                     <ul>
+                        <li>포지션 : 백엔드 개발자</li>
                         <li>자사 서비스 REST API 개발</li>
                         <li>AWS인프라를 활용한 서버 환경 구성</li>
                         <li>관계형 DB설계 참여</li>
@@ -32,6 +33,7 @@ export default function Experience() {
                 </SubTitleContainer>
                 <ContentContainer>
                     <ul>
+                        <li>포지션 : 웹개발자</li>
                         <li>자사 CRM및 자동이체관리 프로그램 개발</li>
                         <li>프로그램 이용관련 고객응대</li>
                         <li>관계형 DB설계 참여</li>
