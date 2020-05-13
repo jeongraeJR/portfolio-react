@@ -9,6 +9,10 @@ const TitleContainer = styled.div`
 
 const SubTitleContainer = styled.div`
     margin-top: 30px;
+
+    h4 {
+        color : #bf7abc
+    }
 `;
 
 const ContentContainer = styled.div`

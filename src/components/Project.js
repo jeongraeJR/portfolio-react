@@ -55,6 +55,13 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
+                        <Col sm="2">참여인원</Col>
+                        <Col sm="10">
+                            Backend : 2명 , Frontend : 2명
+                        </Col>
+                    </Row>
+
+                    <Row className="mt-2">
                         <Col sm="2">참여도</Col>
                         <Col sm="10">
                             <div className="text-center">50%</div>
@@ -83,6 +90,10 @@ export default function Project() {
                             <a href="https://api.gananetworks.com/docs" target="_blank">
                                 BUDY REST API <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
                             </a>
+                            <br/>
+                            <a href="https://thebudy.com" target="_blank">
+                                BUDY <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
+                            </a>
                         </Col>
                     </Row>
                 </ContentContainer>
@@ -110,6 +121,13 @@ export default function Project() {
                                     <FontAwesomeIcon icon={faDatabase} color="#474747"></FontAwesomeIcon> DB 설계참여 및 문서작성
                                 </span>
                             </TableContentContainer>
+                        </Col>
+                    </Row>
+
+                    <Row className="mt-2">
+                        <Col sm="2">참여인원</Col>
+                        <Col sm="10">
+                            Server : 1명 , Web : 1명
                         </Col>
                     </Row>
 
@@ -159,6 +177,13 @@ export default function Project() {
                                     <FontAwesomeIcon icon={faKeyboard} color="#474747"></FontAwesomeIcon> JAVA Servlet을 활용한 화면 개발
                                 </span>
                             </TableContentContainer>
+                        </Col>
+                    </Row>
+
+                    <Row className="mt-2">
+                        <Col sm="2">참여인원</Col>
+                        <Col sm="10">
+                            1명
                         </Col>
                     </Row>
 
