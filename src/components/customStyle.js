@@ -11,7 +11,31 @@ const SubTitleContainer = styled.div`
     margin-top: 30px;
 
     h4 {
-        color : #bf7abc
+        color : #666666;
+    }
+`;
+
+const SkillContainer = styled.div`
+    margin-top: 30px;
+    font-size: 16pt;
+
+    h3 {
+        color: #575757;
+    }
+
+    ul{
+        list-style-type: none;
+        margin-left:-15px;
+        padding-bottom: 20px;
+    }
+
+    ul li {
+      
+    }
+
+    ul li ul{
+        list-style-type: disc;
+        margin-left:10px;
     }
 `;
 
@@ -44,4 +68,5 @@ export {
     LeftTitleOfTable,
     IconContainer,
     TableContentContainer,
+    SkillContainer
 };
