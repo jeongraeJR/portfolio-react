@@ -21,14 +21,14 @@ export default function Project() {
                 </SubTitleContainer>
                 <ContentContainer>
                     <Row>
-                        <Col sm="2">설명</Col>
+                        <Col sm="2"><b>설명</b></Col>
                         <Col sm="auto">
                             <TableContentContainer>해외 합법 대마초 사용자를 위한 커뮤니티 서비스</TableContentContainer>
                         </Col>
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">주요업무</Col>
+                        <Col sm="2"><b>주요업무</b></Col>
                         <Col sm="auto">
                             <TableContentContainer>
                                 <span>
@@ -55,14 +55,14 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">참여인원</Col>
+                        <Col sm="2"><b>참여인원</b></Col>
                         <Col sm="10">
                             Backend : 2명 , Frontend : 2명
                         </Col>
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">참여도</Col>
+                        <Col sm="2"><b>참여도</b></Col>
                         <Col sm="10">
                             <div className="text-center">50%</div>
                             <Progress value={50} />
@@ -70,7 +70,7 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">개발 환경</Col>
+                        <Col sm="2"><b>개발 환경</b></Col>
                         <Col sm="auto">
                             <IconContainer>
                                 <img src="images/nodejs.png" />
@@ -85,7 +85,7 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">링크</Col>
+                        <Col sm="2"><b>링크</b></Col>
                         <Col sm="auto">
                             <a href="https://api.gananetworks.com/docs" target="_blank">
                                 BUDY REST API <FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon>
@@ -103,14 +103,14 @@ export default function Project() {
                 </SubTitleContainer>
                 <ContentContainer>
                     <Row className="mt-2">
-                        <Col sm="2">설명</Col>
+                        <Col sm="2"><b>설명</b></Col>
                         <Col sm="auto">
                             <TableContentContainer>고객 자동이체 기능이 있는 고객출금관리 서비스</TableContentContainer>
                         </Col>
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">주요업무</Col>
+                        <Col sm="2"><b>주요업무</b></Col>
                         <Col sm="auto">
                             <TableContentContainer>
                                 <span>
@@ -125,14 +125,14 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">참여인원</Col>
+                        <Col sm="2"><b>참여인원</b></Col>
                         <Col sm="10">
                             Server : 1명 , Web : 1명
                         </Col>
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">참여도</Col>
+                        <Col sm="2"><b>참여도</b></Col>
                         <Col sm="10">
                             <div className="text-center">50%</div>
                             <Progress value={50} />
@@ -140,7 +140,7 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">개발 환경</Col>
+                        <Col sm="2"><b>개발 환경</b></Col>
                         <Col sm="auto">
                             <IconContainer>
                                 <img src="images/java.png" />
@@ -159,14 +159,14 @@ export default function Project() {
                 </SubTitleContainer>
                 <ContentContainer>
                     <Row className="mt-2">
-                        <Col sm="2">설명</Col>
+                        <Col sm="2"><b>설명</b></Col>
                         <Col sm="auto">
                             <TableContentContainer>고객통화내역, 전화걸기등의 기능이 있는 자사 고객관리를 위한 CRM 프로그램</TableContentContainer>
                         </Col>
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">주요업무</Col>
+                        <Col sm="2"><b>주요 업무</b></Col>
                         <Col sm="auto">
                             <TableContentContainer>
                                 <span>
@@ -181,14 +181,14 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">참여인원</Col>
+                        <Col sm="2"><b>참여 인원</b></Col>
                         <Col sm="10">
                             1명
                         </Col>
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">참여도</Col>
+                        <Col sm="2"><b>참여도</b></Col>
                         <Col sm="10">
                             <div className="text-center">100%</div>
                             <Progress color="info" value={100} />
@@ -196,7 +196,7 @@ export default function Project() {
                     </Row>
 
                     <Row className="mt-2">
-                        <Col sm="2">개발 환경</Col>
+                        <Col sm="2"><b>개발 환경</b></Col>
                         <Col sm="auto">
                             <IconContainer>
                                 <img src="images/java.png" />

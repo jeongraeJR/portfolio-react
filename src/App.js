@@ -6,6 +6,7 @@ import Experience from './components/Experience';
 import Project from './components/Project';
 import Certification from './components/Certification';
 import Footer from './components/Footer';
+import Problem from './components/Problem';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Skill></Skill>
         <Experience></Experience>
         <Project></Project>
+        <Problem></Problem>
         <Certification></Certification>
         <Footer></Footer>
     </div>

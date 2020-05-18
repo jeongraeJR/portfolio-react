@@ -19,22 +19,27 @@ export default function Header() {
                     <Nav className="mx-auto" navbar>
                         <NavbarBrand style={cursorPointer}>
                             <Link activeClass="active" className="About" to="About" spy={true} smooth={true} duration={500}>
-                                About
+                                소개
                             </Link>
                         </NavbarBrand>
                         <NavbarBrand style={cursorPointer}>
                             <Link activeClass="active" className="Skills" to="Skills" spy={true} smooth={true} duration={500}>
-                            Skills
+                            스킬
                             </Link>
                         </NavbarBrand>
                         <NavbarBrand style={cursorPointer}>
                             <Link activeClass="active" className="Experience" to="Experience" spy={true} smooth={true} duration={500}>
-                            Experience
+                            경력
                             </Link>
                         </NavbarBrand>
                         <NavbarBrand style={cursorPointer}>
                             <Link activeClass="active" className="Projects" to="Projects" spy={true} smooth={true} duration={500}>
-                            Projects
+                            프로젝트
+                            </Link>
+                        </NavbarBrand>
+                        <NavbarBrand style={cursorPointer}>
+                            <Link activeClass="active" className="Problem" to="Problem" spy={true} smooth={true} duration={500}>
+                            문제해결
                             </Link>
                         </NavbarBrand>
                     </Nav>
