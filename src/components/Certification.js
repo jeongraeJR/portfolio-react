@@ -11,7 +11,7 @@ export default function Certification() {
         <div>
             <Container className="themed-container" fluid="sm">
                 <TitleContainer>
-                    <h3>Certification</h3>
+                    <h3>자격증</h3>
                     <hr></hr>
                 </TitleContainer>
                

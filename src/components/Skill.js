@@ -12,7 +12,7 @@ export default function Skill() {
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
                     <Element name="Skills" className="element">
-                        <h3>SKILL</h3>
+                        <h3>보유 스킬</h3>
                         <hr></hr>
                     </Element>
                 </TitleContainer>

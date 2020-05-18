@@ -9,7 +9,7 @@ export default function Experience() {
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
                     <Element name="Experience" className="element">
-                        <h3>Experience</h3>
+                        <h3>경력사항</h3>
                         <hr></hr>
                     </Element>
                 </TitleContainer>

@@ -12,7 +12,7 @@ export default function Project() {
             <Container className="themed-container" fluid="md">
                 <TitleContainer>
                  <Element name="Projects" className="element">
-                    <h3>Projects</h3>
+                    <h3>프로젝트</h3>
                     <hr></hr>
                     </Element>
                 </TitleContainer>
